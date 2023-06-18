@@ -2,6 +2,7 @@ package com.example.madrasaapplication;
 
 public class Students {
     private String name;
+
     private String age;
     private String section;
     private String rollNo;
