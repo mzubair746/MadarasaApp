@@ -13,9 +13,12 @@
         android:theme="@style/Theme.MadrasaApplication"
         tools:targetApi="31">
         <activity
+<<<<<<<<< Temporary merge branch 1
+=========
             android:name=".insertRecords"
             android:exported="false" />
         <activity
+>>>>>>>>> Temporary merge branch 2
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
