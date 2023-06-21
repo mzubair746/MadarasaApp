@@ -3,14 +3,14 @@ package com.example.madrasaapplication;
 public class Students {
     private String name;
 
-    private String age;
-    private String section;
+    private int age;
+
     private String rollNo;
 
-    public Students(String name, String age, String section, String rollNo) {
+    public Students(String name, int age,  String rollNo) {
         this.name = name;
         this.age = age;
-        this.section = section;
+
         this.rollNo = rollNo;
     }
 
@@ -22,21 +22,14 @@ public class Students {
         this.name = name;
     }
 
-    public String getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(String age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
-    public String getSection() {
-        return section;
-    }
-
-    public void setSection(String section) {
-        this.section = section;
-    }
 
     public String getRollNo() {
         return rollNo;
@@ -44,5 +37,13 @@ public class Students {
 
     public void setRollNo(String rollNo) {
         this.rollNo = rollNo;
+    }
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", rollNo='" + rollNo + '\'' +
+                '}';
     }
 }
